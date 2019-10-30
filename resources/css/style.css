@@ -150,7 +150,7 @@ header a:visited {
     padding-bottom: 1px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.3s, color 0.2s;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 
 header a:hover,
@@ -209,6 +209,28 @@ header {
     display: inline-block;
     margin-left: 20px;
 }
+
+.secondary-nav { 
+    background-color: rgba(255, 249, 242, 0.75);
+    text-align: right;
+}
+.secondary-nav ul { 
+    list-style: none;
+    padding: 5px 0;
+    
+}
+.secondary-nav li { 
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.far fa-clock,
+.fas fa-mobile,
+.fas fa-map-marker-alt {
+    margin-right: 13px;
+}
+
+
 
 .main-text-box {
     position: absolute;
@@ -418,10 +440,12 @@ table {
     margin: 0 auto;
     margin-top: 10px;
 }
+
 .feedback-box {
     text-align: center;
     padding-bottom: 40px;
 }
+
 .feedback-box img {
     width: 40%;
     height: auto;
